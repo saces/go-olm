@@ -1,7 +1,7 @@
 package olm
 
-// #cgo LDFLAGS: -lolm -lstdc++ -L/home/dev/git/olm/build/
-// #cgo CFLAGS: -I/home/dev/git/olm/include/
+// #cgo LDFLAGS: -lolm -lstdc++ -L${SRCDIR}/olm/build/
+// #cgo CFLAGS: -I${SRCDIR}/olm/include/
 // #include <olm/olm.h>
 // #include <olm/outbound_group_session.h>
 // #include <olm/inbound_group_session.h>
